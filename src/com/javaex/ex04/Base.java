@@ -4,11 +4,11 @@ public class Base {
     
     public void service(String state) {
         if (state.equals("낮")) {
-        	this.day();
+        	day();
         }else if (state.equals("밤")) {
-        	this.night();
+        	night();
         }else {
-        	this.afternoon();
+        	afternoon();
         }
     }
 
